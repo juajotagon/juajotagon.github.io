@@ -1,8 +1,8 @@
 # Configurations
-title:            
-longtitle:        
-author:           
-email:            
+title: The Qubits and the Rubys
+longtitle: Blog made in jekyll about my personal learnings with Quantum Computers.
+author: Juanjo
+email: jujo.otagon@gmail.com
 description: >
   Build Jekyll site with the GitBook style.
 
@@ -10,7 +10,7 @@ version:          1.0
 gitbook_version:  3.2.3
 
 url:              'https://juajotagon.github.io'
-baseurl:          '/jekyll-gitbook'
+baseurl:          ''
 rss:              RSS
 
 toc:
