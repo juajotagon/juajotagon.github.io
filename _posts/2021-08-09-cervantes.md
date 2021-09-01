@@ -11,7 +11,7 @@ layout: post
 
 ## Contexto.
 
-Buscando algo de inspiración para echar un vistazo al _web scrapping_, recordé que la letra que más veces aparece repetida en el lenguaje castellano es la "e", con un ~14% de las mismas. Y pensé que qué mejor manera de corroborarlo y al mismo tiempo scrapear un documento con las suficientes letras que hacerlo con, bueno, [El Quijote](http://www.cervantesvirtual.com/obra-visor/el-ingenioso-hidalgo-don-quijote-de-la-mancha--0/html/)
+Buscando algo de inspiración para echar un vistazo al _web scrapping_, recordé que la letra que más veces aparece repetida en el lenguaje castellano es la "e", con un ~14% de las mismas. Y pensé que qué mejor manera de ver si es así y al mismo tiempo scrapear un documento con las suficientes letras que hacerlo con, bueno, [El Quijote](http://www.cervantesvirtual.com/obra-visor/el-ingenioso-hidalgo-don-quijote-de-la-mancha--0/html/)
 
 Así pues, en wikipedia comprobé para mi sorpresa que no sólo se encuentra un articulo sobre la aparición de las letras del castellano, sino que hace con dististas fuentes para tener un mejor contraste dependiendo del texto: _La RAE_, _La Celestina_ y, por suerte, [_El Quijote!_](https://es.wikipedia.org/wiki/Frecuencia_de_aparici%C3%B3n_de_letras#Ejemplo_concreto:_el_Quijote)
 
@@ -22,7 +22,7 @@ Una vez que sabemos nuestro objetivo, me propuse realizar los siguientes pasos:
 
 1. Conseguir pasar El Quijote de su formato online a txt parseado.
 2. Una vez tenemos el texto, modificarlo para formular una forma de contarlo.
-3. Realizar la cuenta sobre las letras, sin tener en cuenta acentos.
+3. Realizar la cuenta sobre las letras, transformando los acentos a su carácter sin acento correspondiente.
 
 Por tanto, lo que hice fué hacer tres scripts por separado para hacer cada una de las tareas. Con esto presente, vamos pues al primer paso.
 
